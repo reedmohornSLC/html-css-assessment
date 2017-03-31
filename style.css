@@ -1,0 +1,104 @@
+
+
+body{
+
+  background-image: url("img/main-bg.jpeg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+
+li{
+  display:inline;
+  width:30%;
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+}
+*{
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+.main{
+  width:50%;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  margin:0;
+  color:white;
+  font-weight: bold;
+  font-size: 40px;
+
+}
+
+ul{
+  list-style: none;
+  justify-content: space-around;
+
+}
+
+.big{
+  width:100%;
+  text-align: center;
+}
+
+.circle{
+  height:50px;
+  width:50px;
+  border:1px solid white;
+  position: absolute;
+  top:90%;
+  left:47.5%;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.mid{
+  padding-left: 20%;
+  padding-right:20%;
+}
+
+.lefty{
+  float:left;
+}
+
+.stacker{
+  height: 10px;
+  width: 30px;
+  border-top: 3px solid black;
+}
+
+.righty{
+
+  float:right;
+  display:inline-block;
+  padding-right: 10%;
+
+}
+.icon{
+  width:20px;
+  height:20px;
+  border:1px solid white;
+  display:inline-block;
+}
+
+
+
+
+@media screen and (min-width:0px) and (max-width:500px){
+  .big{display:none;}
+
+}
+
+@media screen and (min-width:501px) and (max-width:1024px){
+  .small{display:none;}
+}
